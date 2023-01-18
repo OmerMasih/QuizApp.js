@@ -1,0 +1,137 @@
+
+:root {
+    --light-blue: #d2d3d3;
+    --light-green: #678983;
+    --white: #fff;
+    --black: #070707;
+    --purple: #3b3486;
+    --blue: #32a1ce;
+    --dark-green: #4c6864;
+    --red: #cb1c8d;
+  }
+
+body {
+    display: flex;
+    background-color: rgb(243, 249, 251);
+    background-image: url("https://media1.giphy.com/media/0Styincf6K2tvfjb5Q/giphy.webp?cid=ecf05e47a74leg1cj7wnjq2ykftachokjgiqh1hemixvcjz9&rid=giphy.webp&ct=g");
+    background-blend-mode:color-burn;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+
+
+
+#highScore1{
+    display: flex;
+    color: var(--black);
+    font-style: var(--black);
+    padding-left: 40px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    
+}
+
+#timer {
+    display: flex;
+    background-color: var(--blue);
+    color: var(--white);
+    border-style: inset;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 15px;
+    margin-right: 40px;
+
+}
+
+.container {
+
+    text-align: center;
+    padding: 40px 90px 40px 90px;
+    height: auto;
+    width: auto;
+    border: solid var(--dark-green);
+    border-width: 10px;
+    width: 800px;
+    margin-left: 150px;
+    padding: 50px;
+    box-shadow: 3px 3px rgba(0, 255, 221, 0.187), -1em 0 .4em rgb(92, 92, 48);
+    border-radius: 20px;
+}
+
+#questionsDiv{
+    margin-top: 75px;
+}
+
+#listUnorderd {
+    color: var(--white);
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    padding-left: 100px;
+    width: 200px;
+}
+
+
+li:hover{
+    background-color: var(--dark-green);
+    cursor: pointer;
+}
+
+li {
+background-color: #CFF5E7;
+border-style: groove;
+border-color: #0D4C92;
+color: #070707;
+border-width: 5px;
+font-weight: bolder;
+margin-bottom: 7px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+
+#timeButton{
+    background-color: var(--blue);
+    border-color: rgb(204, 171, 204);
+    border-width: 3px;
+    border-radius: 12px;
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+    
+}
+
+#createH1 {
+    color: rgb(39, 156, 90);
+    font-size: 50px;
+    
+}
+
+#initials{
+    height: 35px;
+    width: 95px;
+    border-radius: 5px;
+    border-width: 2.5px;
+    border-color: var(--blue);
+}
+
+
+button {
+    font-size: 120%;
+    margin-left: 10px;
+    height: 35px;
+    width: 75px;
+    border-radius: 10px;
+}
+
+#createDiv {
+    margin-top: 40px; 
+    
+}
+
